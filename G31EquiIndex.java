@@ -10,7 +10,7 @@ public class G31EquiIndex {
         }
         suffix[n-1]=arr[n-1];
         for(int i=n-2;i>=0;i--){  
-            suffix[i]=suffix[i+1]+arr[i];
+            suffix[i]=suffix[i+1]+arr[i];   
         }
         for(int i =0 ;i<n; i++){
             int leftSum=(i==0)?0:prefix[i-1];
