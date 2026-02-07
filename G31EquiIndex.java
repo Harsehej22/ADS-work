@@ -2,7 +2,7 @@ public class G31EquiIndex {
     public static void main(String[] args) {
         int []arr={2,4,6,8,10};
         int n=arr.length;
-        int []prefix=new int[n];  
+        int []prefix=new int[n];    
         int []suffix=new int[n];  
         prefix[0]=arr[0];  
         for(int i=1;i<n;i++){
